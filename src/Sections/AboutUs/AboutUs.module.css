@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.card {
+  display: flex;
+  gap: 8vw;
+  width: 100%;
+  justify-content: center;
+  height: 70vh;
+  margin-bottom: 10vh;
+}
+
+.card1 {
+  height: 10vh;
+  width: 20vw;
+  font-family: 'Ubuntu', sans-serif;
+  transform: translate .2s;
+}
+
+.card1:hover {
+  transform: scale(1.1);
+}
+
+.card1 img {
+  width: 100%;
+}
+
+.card1 h3 {
+  color: grey;
+  margin-top: 6vh;
+}
+
+
+@media only screen and (max-width: 940px)   {
+
+  .card{
+    flex-direction: column;
+    padding: 2rem 0 0 2rem;
+  }
+  
+  .card1{
+    display: flex;
+    height: fit-content;
+    width: 80vw;
+  }
+
+  .cardContent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+  }
+}

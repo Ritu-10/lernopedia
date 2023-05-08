@@ -1,0 +1,65 @@
+.main {
+  background-image: url("https://imgur.com/OmQhHJM.jpg");
+  height: 110vh;
+  margin-top: -10vh;
+}
+
+.header {
+  margin-bottom: 4vh;
+  border-bottom: 2px solid black;
+  color: rgb(23, 118, 207);
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40vw;
+  height: 110vh;
+  font-size: 0.8rem;
+  padding: 2rem;
+  color: balck;
+  background-color: rgb(207, 199, 199);
+}
+
+.content {
+  padding: 0.3rem;
+  width: 35vw;
+  font-size: 1rem;
+  color: black;
+  border-bottom: 1px solid gray;
+}
+
+.content:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.video {
+  padding: 2rem;
+  width: 50vw;
+  height: fit-content;
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+  background-color: rgb(207, 199, 199);
+  border-radius: 25px;
+}
+
+.video h4 {
+  font-family: cursive;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.player {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 900px)   {
+.player{
+  width: fit-content;
+}
+
+}

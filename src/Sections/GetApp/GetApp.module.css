@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.box {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainBox {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 4rem;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 2rem 0rem 0rem 2rem;
+  box-shadow: 5px 5px 5px 5px gray;
+  transition: transform .2s;
+}
+
+.mainBox:hover{
+  transform: scale(1.1);
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: gray;
+  font-family: 'Ubuntu', sans-serif;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+.heading2 {
+  margin-top: -2rem;
+  box-sizing: inherit;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  width: 40vw;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.downloadIcons {
+  display: flex;
+  gap: 0rem;
+}
+
+.downloadIcons img {
+  height: 10vh;
+  width: 80%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 8vh;
+}
+
+.img {
+  height: 60vh;
+}
+
+@media only screen and (max-width: 940px)   {
+  .box{
+    display: none;
+  }
+}
